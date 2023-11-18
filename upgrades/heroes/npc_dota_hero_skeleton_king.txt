@@ -1,0 +1,81 @@
+"npc_dota_hero_skeleton_king"
+{
+	"skeleton_king_hellfire_blast"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+			"max_count" "5"
+		}
+		"blast_speed"
+		{
+			"value" "150"
+			"operator" "OP_ADD"
+		}
+		"blast_dot_duration"
+		{
+			"value" "1"
+			"operator" "OP_ADD"
+			"max_count" "5"
+		}
+		"blast_dot_damage"
+		{
+			"value" "25"
+			"operator" "OP_ADD"
+		}
+		"bonus_move_speed"
+		{
+			"value" "10"
+			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"bonus_attack_speed" "10"
+			}
+		}
+	}
+	"skeleton_king_vampiric_aura"
+	{
+		"skeleton_health"
+		{
+			"value" "95"
+			"operator" "OP_ADD"
+		}
+		"skeleton_damage_tooltip"
+		{
+			"value"	"20"
+			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"skeleton_damage" "20"
+			}
+		}
+		"vampiric_aura"
+		{
+			"value" "6"
+			"operator" "OP_ADD"
+		}
+	}
+	"skeleton_king_mortal_strike"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"crit_mult"
+		{
+			"value" "25"
+			"operator" "OP_ADD"
+		}
+	}
+	"skeleton_king_reincarnation"
+	{
+		"slow_radius"
+		{
+			"value" "45"
+			"operator" "OP_ADD"
+			"max_count" "10"
+		}
+	}
+}

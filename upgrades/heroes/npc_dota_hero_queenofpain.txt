@@ -1,0 +1,105 @@
+"npc_dota_hero_queenofpain"
+{
+	"queenofpain_shadow_strike"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"strike_damage"
+		{
+			"value" "50"
+			"operator" "OP_ADD"
+		}
+		"duration_damage"
+		{
+			"value" "20"
+			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"duration_heal" "10"
+			}
+		}
+		"damage_interval"
+		{
+			"value" "-0.25"
+			"operator" "OP_ADD"
+			"operator" "OP_MULTIPLY"
+
+			"multiplicative_target"			"0"
+			"multiplicative_base_value"		"2.3"
+		}
+	}
+	"queenofpain_blink"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+
+			"linked_special_values"
+			{
+				"shard_damage"
+				{
+					"value"		"20"
+					"operator"	"OP_ADD"
+				}
+			}
+		}
+		"shard_aoe"
+		{
+			"value" "30"
+			"operator" "OP_ADD"
+			"max_count" "10"
+			"linked_special_values"
+			{
+				"shard_duration" "0.15"
+			}
+		}
+	}
+	"queenofpain_scream_of_pain"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"area_of_effect"
+		{
+			"value" "30"
+			"operator" "OP_ADD"
+			"max_count" "10"
+		}
+		"damage"
+		{
+			"value" "60"
+			"operator" "OP_ADD"
+		}
+	}
+	"queenofpain_sonic_wave"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"damage"
+		{
+			"value" "100"
+			"operator" "OP_ADD"
+		}
+		"final_aoe"
+		{
+			"value" "30"
+			"operator" "OP_ADD"
+			"max_count" "10"
+
+			"linked_special_values"
+			{
+				"knockback_distance" "30"
+				"starting_aoe" "10"
+			}
+		}
+	}
+}
