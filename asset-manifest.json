@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ot3-wiki/static/css/main.fdaa6d77.css",
+    "main.css": "/ot3-wiki/static/css/main.f72dc3b3.css",
     "main.js": "/ot3-wiki/static/js/main.bf36d25a.js",
     "static/media/Reaver-Bold.woff": "/ot3-wiki/static/media/Reaver-Bold.85af07e3963367141542.woff",
     "static/media/Reaver-SemiBold.woff": "/ot3-wiki/static/media/Reaver-SemiBold.ee12ddc2fc83284bf7a1.woff",
     "static/media/Radiance-Regular.woff2": "/ot3-wiki/static/media/Radiance-Regular.1f6eefa29fce551ee391.woff2",
     "static/media/Radiance-Bold.woff2": "/ot3-wiki/static/media/Radiance-Bold.fd069ebf039e32c18993.woff2",
     "index.html": "/ot3-wiki/index.html",
-    "main.fdaa6d77.css.map": "/ot3-wiki/static/css/main.fdaa6d77.css.map",
+    "main.f72dc3b3.css.map": "/ot3-wiki/static/css/main.f72dc3b3.css.map",
     "main.bf36d25a.js.map": "/ot3-wiki/static/js/main.bf36d25a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdaa6d77.css",
+    "static/css/main.f72dc3b3.css",
     "static/js/main.bf36d25a.js"
   ]
 }
